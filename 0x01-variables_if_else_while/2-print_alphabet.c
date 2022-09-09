@@ -8,11 +8,16 @@
  */
 
 int main(void)
-{	
-	char alphabet = 'a';
+{
+	/*letter l represents the lowercase*/
+	char l = 'a';
 
-	for (; alphabet <= 'z' ; alphabet++)
-		putchar(alphabet);
+	while (l <= 'z')
+	{
+		putchar(l);
+		l++;
+	}
 	putchar('\n');
 	return (0);
 }
+
