@@ -10,19 +10,27 @@
 int main(void)
 {
 	/*n represents all the single digit numbers*/
-	int n = 0;
+	int i;
+	int j;
 
-	while (n <= 9)
+	for (i = 10; i <= 19; i++)
 	{
-		putchar(n % 10 + '0');
-		if (n != 9)
+		for (j = 10; j <= 19; j++)
 		{
-			putchar(',');
-			putchar(' ');
+		 	if ((j % 10) > (i % 10))
+			{
+				putchar((i % 10) + ('0'));
+				putchar((j % 10) + ('0'));
+				if (i != 18 || j != 19)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-	n++;
 	}
 	putchar('\n');
-	return (0);
+	return(0);
+			
 }
 
