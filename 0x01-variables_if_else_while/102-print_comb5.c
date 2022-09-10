@@ -2,20 +2,33 @@
 /**
  *main - entry point
  *
- *Description: Returns numbers 0 to 10
+ *Description: Returns tow 2 digit numbers from 0 to 100
  *
  *Return: always 0
  */
 
 int main(void)
 {
-	/*a represents numbers*/
-	int a = 0;
+	/*i represents numbers*/
+	int i;
+	int j;
 
-	while (a < 10)
+	for (i = 0; i <= 99; i++)
 	{
-		printf("%d", a);
-		a++;
+		for (j = i + 1; j <= 99; j++)
+		{
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+			putchar(' ');
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
+
+			if (!(i == 98 && j == 99))
+		 	{
+		 		putchar(',');
+		 		putchar(' ');
+		 	}
+		}
 	}
 	putchar('\n');
 	return (0);
