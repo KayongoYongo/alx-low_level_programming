@@ -21,7 +21,7 @@ int main(void)
 			{
 			continue;
 			}
-				if(i > j)
+				if (i > j)
 				{
 				continue;
 				}
