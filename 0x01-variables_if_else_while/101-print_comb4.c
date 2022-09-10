@@ -26,16 +26,16 @@ int main(void)
 				}
 					if ((i < j) && (j < k) && (i < k))
 					{
-						putchar((i % 10) + '0');
-						putchar((j % 10) + '0');
-						putchar((k % 10) + '0');
+					putchar((i % 10) + '0');
+					putchar((j % 10) + '0');
+					putchar((k % 10) + '0');
 
-						if ((i != 7) || (j !=8) || (k != 9))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if ((i != 7) || (j != 8) || (k != 9))
+					{
+					putchar(',');
+					putchar(' ');
 					}
+				}
 			}
 		}
 	}
