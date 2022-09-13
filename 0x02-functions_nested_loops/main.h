@@ -14,3 +14,5 @@ void print_alphabet_x10(void);
 int _islower(int c);
 /*Chechs for c in uppercase and lowercase. Returns 1 if true and 0 if false*/
 int _isalpha(int c);
+/*A program that prints the sign of a number*/
+int print_sign(int n);
