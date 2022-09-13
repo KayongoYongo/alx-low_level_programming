@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *main - Entry point of the program
+ *print_alphabet - Entry point of the program
  *
  *Description: The program prints from a to z in lowercase. It uses a function
- *
- *print_aplabet - This function prints the alphabet.
  *
  *Return: always 0;
  */
