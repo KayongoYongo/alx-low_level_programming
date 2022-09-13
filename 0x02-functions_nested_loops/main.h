@@ -20,3 +20,5 @@ int print_sign(int n);
 int _abs(int);
 /*A program that prints the last digit of a number*/
 int print_last_digit(int);
+/*This program prints all the minutes in 24 hours*/
+void jack_bauer(void);
