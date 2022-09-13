@@ -18,3 +18,5 @@ int _isalpha(int c);
 int print_sign(int n);
 /*A program that prints the absolute value of an integer*/
 int _abs(int);
+/*A program that prints the last digit of a number*/
+int print_last_digit(int);
