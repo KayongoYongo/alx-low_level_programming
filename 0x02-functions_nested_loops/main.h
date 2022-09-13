@@ -6,9 +6,7 @@
 
 /*This program writes chaacters*/
 int _putchar(char c);
-/*This program prints letters from a to z in lowercase
- *
- * Description: This function prints the alphabet in lowercase
- *
- */
+/*This program prints letters from a to z in lowercase*/
 void print_alphabet(void);
+/*This program prints the alphabet 10 times*/
+void print_alphabet_x10(void);
