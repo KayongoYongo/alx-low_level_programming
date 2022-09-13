@@ -3,7 +3,9 @@
 /**
  *_islower - This program checks if a letter is in lowercase
  *
- *Description: The program returns 1 if lowercase. 0 if upper.
+ *Description: The program returns 1 if lowercase 0 if upper.
+ *
+ *@c: character to compare
  *
  *Return: Eiter 0 or 1
  */
