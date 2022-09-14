@@ -17,7 +17,7 @@ int main(void)
 	float sum = 0;
 	int k;
 
-	for (k = 0; k < 97; k++)
+	for (k = 0; k < 99; k++)
 	{
 		i = j;
 		j = sum;
