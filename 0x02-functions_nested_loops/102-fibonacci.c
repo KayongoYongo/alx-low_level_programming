@@ -21,8 +21,6 @@ int main(void)
 
 	printf("%ld", j);
 	printf(", ");
-	printf("%ld", sum);
-	printf(", ");
 
 	for (k = 0; k < 49; k++)
 	{
