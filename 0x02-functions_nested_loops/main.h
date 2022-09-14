@@ -26,3 +26,5 @@ void jack_bauer(void);
 void times_table(void);
 /*This program adds the sum of two integers*/
 int add(int, int);
+/*This program prints from n to 98*/
+void print_to_98(int n);
