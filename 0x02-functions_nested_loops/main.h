@@ -24,3 +24,5 @@ int print_last_digit(int);
 void jack_bauer(void);
 /*This program prints the multiples of 9*/
 void times_table(void);
+/*This program adds the sum of two integers*/
+int add(int, int);
