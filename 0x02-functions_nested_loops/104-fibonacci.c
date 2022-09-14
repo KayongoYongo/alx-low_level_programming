@@ -23,7 +23,7 @@ int main(void)
 		j = sum;
 		sum = i + j;
 		printf("%.0f", sum);
-		if (k != 96)
+		if (k != 98)
 		{
 			printf(", ");
 		}
