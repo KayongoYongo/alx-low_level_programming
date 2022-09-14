@@ -14,22 +14,24 @@ int main(void)
 {
 	long int i = 0;
 	long int j = 1;
+	long int sum = 0;
+	sum = i + j;
 	int k;
 
 	printf("%ld", j);
 	printf(", ");
+	printf("%ld", sum);
+	printf(", ");
 
-	for (k = 0; k < 24; k++)
+	for (k = 0; k < 49; k++)
 	{
-		i = i + j;
-		j = i + j;
-		printf("%ld", i);
-		printf(", ");
-		printf("%ld", j);
-		printf(", ");
-		if (j == 7778742049)
+		i = j;
+		j = sum;
+		sum = i + j;
+		printf("%ld", sum);
+		if (k != 48)
 		{
-			printf("%ld", j);
+			printf(", ");
 		}
 	}
 	printf("\n");
