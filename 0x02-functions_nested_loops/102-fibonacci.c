@@ -15,8 +15,9 @@ int main(void)
 	long int i = 0;
 	long int j = 1;
 	long int sum = 0;
-	sum = i + j;
 	int k;
+
+	sum = i + j;
 
 	printf("%ld", j);
 	printf(", ");
