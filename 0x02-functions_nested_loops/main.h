@@ -22,3 +22,5 @@ int _abs(int);
 int print_last_digit(int);
 /*This program prints all the minutes in 24 hours*/
 void jack_bauer(void);
+/*This program prints the multiples of 9*/
+void times_table(void);
