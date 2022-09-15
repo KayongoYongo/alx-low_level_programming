@@ -10,4 +10,5 @@ void print_numbers(void);
 int _putchar(char c);
 /*This function prints from 0 to 9 except 2 and 4*/
 void print_most_numbers(void);
-
+/*Prints from 0 to 14*/
+void more_numbers(void);
