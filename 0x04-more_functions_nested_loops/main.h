@@ -14,3 +14,5 @@ void print_most_numbers(void);
 void more_numbers(void);
 /*Prints a stright line*/
 void print_line(int n);
+/*Prints the forward slash*/
+void print_diagonal(int n);
