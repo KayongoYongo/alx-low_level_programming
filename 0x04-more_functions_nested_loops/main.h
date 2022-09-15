@@ -12,3 +12,5 @@ int _putchar(char c);
 void print_most_numbers(void);
 /*Prints from 0 to 14*/
 void more_numbers(void);
+/*Prints a stright line*/
+void print_line(int n);
