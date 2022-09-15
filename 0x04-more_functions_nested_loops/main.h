@@ -8,3 +8,6 @@ int mul(int a, int b);
 void print_numbers(void);
 /*This function prints out characters*/
 int _putchar(char c);
+/*This function prints from 0 to 9 except 2 and 4*/
+void print_most_numbers(void);
+
