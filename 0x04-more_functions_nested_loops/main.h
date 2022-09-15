@@ -1,6 +1,6 @@
 /*This function checks the uppercase of a letter*/
 int _isupper(int c);
-/*This program checks wherther a character is a letter or a number*/
+/*This function checks wherther a character is a letter or a number*/
 int _isdigit(int c);
 /*This function multiplies two integers*/
 int mul(int a, int b);
@@ -20,3 +20,5 @@ void print_diagonal(int n);
 void print_square(int size);
 /*This function prints an integer*/
 void print_number(int n);
+/*This function prints a triangle*/
+void print_triangle(int size);
