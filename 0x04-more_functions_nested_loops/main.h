@@ -18,3 +18,5 @@ void print_line(int n);
 void print_diagonal(int n);
 /*This program prints a square*/
 void print_square(int size);
+/*This function prints an integer*/
+void print_number(int n);
