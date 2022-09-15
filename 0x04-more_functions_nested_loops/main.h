@@ -4,3 +4,7 @@ int _isupper(int c);
 int _isdigit(int c);
 /*This function multiplies two integers*/
 int mul(int a, int b);
+/*This function prints from zero to 9*/
+void print_numbers(void);
+/*This function prints out characters*/
+int _putchar(char c);
