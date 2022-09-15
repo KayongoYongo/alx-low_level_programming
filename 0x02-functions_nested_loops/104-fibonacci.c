@@ -20,14 +20,14 @@ int main(void)
 	printf("%.0f, ", i);
 	printf("%.0f, ", j);
 
-	for (k = 0; k < 97; k++)
+	for (k = 0; k < 96; k++)
 	{
 		sum = i + j;
 		printf("%.0f", sum);
 
 		i = j;
 		j = sum;
-		if (k != 96)
+		if (k != 95)
 		{
 			printf(", ");
 		}
