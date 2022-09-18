@@ -5,6 +5,7 @@ Theses scripts do the following:
 Write a function that checks for uppercase character.
 
 Prototype: int _isupper(int c);
+
 Returns 1 if c is uppercase
 Returns 0 otherwise
 
@@ -49,6 +50,7 @@ You can only use _putchar three times in your code
 Write a function that draws a straight line in the terminal.
 
 Prototype: void print_line(int n);
+
 You can only use _putchar function to print
 Where n is the number of times the character _ should be printed
 The line should end with a \n
@@ -59,6 +61,7 @@ If n is 0 or less, the function should only print \n
 Write a function that draws a diagonal line on the terminal.
 
 Prototype: void print_diagonal(int n);
+
 You can only use _putchar function to print
 Where n is the number of times the character \ should be printed
 The diagonal should end with a \n
