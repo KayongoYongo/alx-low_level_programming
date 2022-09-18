@@ -4,6 +4,7 @@ main.h
 
 This header file contains the prorotypes of c functions.
 
+
 0-main.c
 
 In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project:
@@ -16,6 +17,7 @@ You only need to upload 0-main.c and main.h for this task. We will provide our o
 
 You are not allowed to add or remove lines of code, you may change only one line in this task.
 
+
 1-main.c
 
 Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
@@ -23,6 +25,7 @@ Copy this main file. Comment out (don’t delete it!) the part of the code that 
 Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
 
 You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
+
 
 2-largest_number.c
 
@@ -33,6 +36,7 @@ This program prints the largest of three integers.
 Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
 
 Line count will not be checked for this task.
+
 
 3-print_remaining_days.c
 
