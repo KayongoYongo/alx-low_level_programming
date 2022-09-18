@@ -1,5 +1,9 @@
 Theses scripts do the following:
 
+main.h
+
+A header file which contails all the function prototypes.
+
 0-isupper.c
 
 Write a function that checks for uppercase character.
