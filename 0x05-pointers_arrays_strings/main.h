@@ -12,3 +12,5 @@ void _puts(char *str);
 void print_rev(char *s);
 /*This function reverses a string*/
 void rev_string(char *s);
+/*The function prints every pther character on a string starting with the first character*/
+void puts2(char *str);
