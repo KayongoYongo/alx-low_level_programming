@@ -6,3 +6,5 @@ void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 /*This function returns the length of a string*/
 int _strlen(char *s);
+/*This function prints a string, followed by a new line, to stdout*/
+void _puts(char *str);
