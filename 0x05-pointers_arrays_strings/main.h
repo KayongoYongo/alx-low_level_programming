@@ -8,3 +8,5 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 /*This function prints a string, followed by a new line, to stdout*/
 void _puts(char *str);
+/*This function prints a string in reverse*/
+void print_rev(char *s);
