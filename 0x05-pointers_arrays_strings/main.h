@@ -20,3 +20,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 /*A function that copies the string pointed to by src*/
 char *_strcpy(char *dest, char *src);
+/*A function that converts a string to an integer*/
+int _atoi(char *s);
