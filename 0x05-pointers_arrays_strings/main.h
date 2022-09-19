@@ -14,3 +14,5 @@ void print_rev(char *s);
 void rev_string(char *s);
 /*The function prints every pther character on a string starting with the first character*/
 void puts2(char *str);
+/*The function prints out half of a string*/
+void puts_half(char *str);
