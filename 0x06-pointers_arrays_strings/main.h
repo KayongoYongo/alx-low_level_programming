@@ -8,4 +8,6 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 /*A function that copares two charactrs*/
 int _strcmp(char *s1, char *s2);
+/*A function that reverses an array of integers*/
+void reverse_array(int *a, int n);
 
