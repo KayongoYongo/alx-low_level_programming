@@ -18,4 +18,6 @@ char *cap_string(char *s);
 char *leet(char *);
 /*A function that encodes a string using rot13*/
 char *rot13(char *);
+/*A program that prints a buffer*/
+void print_buffer(char *b, int size);
 
