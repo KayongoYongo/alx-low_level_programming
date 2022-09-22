@@ -11,5 +11,8 @@ int _strcmp(char *s1, char *s2);
 /*A function that reverses an array of integers*/
 void reverse_array(int *a, int n);
 /*A function that changes lowercase to uppercase*/
-char *string_toupper(char *s);
-
+char *string_toupper(char *str);
+/*Capitalize all words of a string*/
+char *cap_string(char *s);
+/*A function that encodes a string into 1337*/
+char *leet(char *);
