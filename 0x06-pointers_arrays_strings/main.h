@@ -10,4 +10,6 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 /*A function that reverses an array of integers*/
 void reverse_array(int *a, int n);
+/*A function that changes lowercase to uppercase*/
+char *string_toupper(char *s);
 
