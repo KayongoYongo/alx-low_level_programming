@@ -10,4 +10,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 /*A function that searches for a string*/
 char *_strpbrk(char *s, char *accept);
-
+/*A function that locates a sub string*/
+char *_strstr(char *haystack, char *needle);
