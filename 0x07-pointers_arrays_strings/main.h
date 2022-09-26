@@ -4,4 +4,6 @@ int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
 /*A function that copies memory area*/
 char *_memcpy(char *dest, char *src, unsigned int n);
+/*A function that gets the length of a prefix sub string*/
+unsigned int _strspn(char *s, char *accept);
 
