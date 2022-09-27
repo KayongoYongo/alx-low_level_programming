@@ -16,4 +16,6 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 /*A function that prints the sum of two diagonals*/
 void print_diagsums(int *a, int size);
+/*A function that sets the vale of a pointer to char*/
+void set_string(char **s, char *to);
 
