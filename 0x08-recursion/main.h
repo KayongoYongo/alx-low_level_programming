@@ -10,7 +10,7 @@ int _strlen_recursion(char *s);
 int factorial(int n);
 /*A function that returns the power of a value*/
 int _pow_recursion(int x, int y);
-/*A function that prints a prime number*/
-int helper(int i, int n);
 /*A function that helps in finding a prime number*/
 int is_prime_number(int n);
+/*A function that prints out a palindrome*/
+int is_palindrome(char *s);
