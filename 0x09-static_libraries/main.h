@@ -1,6 +1,6 @@
 /*A function that prints out characters*/
 int _putchar(char c);
-/*A function which checks if c in uppercase and lowercase. Returns 1 if true and 0 if false*/
+/*A function which checks if c in uppercase and lowercase.*/
 int _islower(int c);
 /*A function that checks for an alphabetic character*/
 int _isalpha(int c);
