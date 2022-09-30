@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
- * StringCheck - checks string
- * @s: string to check
- * Return: boolean
+ *StringCheck - checks string
+ *@s: string to check
+ *Return: boolean
  */
+
 int StringCheck(char *s)
 {
 	int i = 0;
@@ -19,16 +21,18 @@ int StringCheck(char *s)
 	}
 	return (1);
 }
+
 /**
- * main - main function
- * @argc: argumentc
- * @argv: vector of arguments
+ *main - main function
+ *@argc: argumentc
+ *@argv: vector of arguments
  *Return: always 0
  */
+
 int main(int argc, char  *argv[])
 {
 	int i;
-	int result = 0;
+	int sum = 0;
 
 	if (argc > 1)
 	{
@@ -36,7 +40,7 @@ int main(int argc, char  *argv[])
 		{
 			if (StringCheck(argv[i]))
 			{
-				result += atoi(argv[i]);
+				sum += atoi(argv[i]);
 			}
 			else
 			{
@@ -44,7 +48,7 @@ int main(int argc, char  *argv[])
 				return (1);
 			}
 		}
-		printf("%d\n", result);
+		printf("%d\n", sum);
 		return (0);
 	}
 	else
@@ -54,3 +58,4 @@ int main(int argc, char  *argv[])
 	}
 
 }
+
