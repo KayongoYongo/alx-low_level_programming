@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 /*A function that prints out characters*/
 int _putchar(char c);
 /*A function which checks if c in uppercase and lowercase.*/
@@ -38,4 +40,5 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 /*A function that locates a sub string*/
 char *_strstr(char *haystack, char *needle);
+#endif
 
