@@ -1,51 +1,73 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 /**
- *main - main function
- *@argc: argumentc
- *@argv: vector of arguments
- *Return: always 0
+ *helper - does it for me
+ *
+ *@result: integer I'm testing
+ *
+ *Return: value
  */
-int main(int argc, char  *argv[])
+int helper(int result)
 {
-	int coins = 0;
-	int money;
+	if (result >= 25)
+	{
+		return (result / 25 + helper(result % 25));
+	}
+	else if (result >= 10 && result < 25)
+	{
+		return (result / 10 + helper(result % 10));
+	}
+	else if (result >= 5 && result < 10)
+	{
+		return (result / 5 + helper(result % 5));
+	}
+	else if (result >= 2 && result < 5)
+	{
+		return (result / 2 + helper(result % 2));
+	}
+	else if (result >= 1 && result < 2)
+	{
+		return (result / 1 + helper(result % 1));
+	}
+	else
+	{
+		return (0);
+	}
+}
+
+/**
+ *main- returns the product
+ *
+ *@argc: value of the elements in the array
+ *@argv: array of strings
+ *
+ *Return: Always 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int result;
+
+	result = atoi(argv[argc - 1]);
 
 	if (argc == 2)
 	{
-		if (strchr(argv[argc - 1], '-'))
+		if (result < 0)
 		{
 			printf("0\n");
-			return (1);
+			return (0);
 		}
-
-		money = atoi(argv[argc - 1]);
-
-		while (money > 0)
+		else
 		{
-			if (money % 25 == 0)
-			{
-				money -= 25;
-			} else if (money % 10 == 0)
-			{
-				money -= 10;
-			} else if (money % 5 == 0)
-			{
-				money -= 5;
-			} else if (money % 2 == 0)
-			{
-				money -= 2;
-			} else
-			{
-				money--;
-			}
-			coins++;
+			printf("%d\n", helper(result));
+			return (0);
 		}
-		printf("%d\n", coins);
-		return (0);
 	}
-	printf("Error\n");
-	return (1);
+	else
+	{
+		printf("Error\n");
+		return (1);
+	}
 }
 
