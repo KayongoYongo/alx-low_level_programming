@@ -7,18 +7,22 @@ The scripts do the following:
 	If you rename the program, it will print the new name, without having to compile it again.
 
 1-args.c
+
 	A program that prints the number of arguments passed into it.
 	
 2-args.c
+
 	A program that prints all arguments it receives.
 
 3-mul.c
+
 	A program that multiplies two numbers.
 	Your program should print the result of the multiplication, followed by a new line.
 	You can assume that the two numbers and result of the multiplication can be stored in an integer
 	If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
 
 4-add.c
+
 	A program that adds positive numbers.
 	Print the result, followed by a new line
 	If no number is passed to the program, print 0, followed by a new line.
@@ -26,6 +30,7 @@ The scripts do the following:
 	You can assume that numbers and the addition of all the numbers can be stored in an int.
 
 100-change.c
+
 	A program that prints the minimum number of coins to make change for an amount of money.
 	if the number of arguments passed to your program is not exactly 1, print Error, followed by a new line, and return 1.
 	you should use atoi to parse the parameter passed to your program
