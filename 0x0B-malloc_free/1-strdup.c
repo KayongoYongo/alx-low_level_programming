@@ -32,7 +32,7 @@ char *_strdup(char *str)
 		{
 			return (NULL);
 		}
-		else if (str != NULL)
+		else
 		{
 			for (i = 0; i < length && str[i] != '\0'; i++)
 			{
