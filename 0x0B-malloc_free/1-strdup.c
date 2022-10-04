@@ -34,7 +34,7 @@ char *_strdup(char *str)
 		}
 		else
 		{
-			for (i = 0; i < length && str[i] != '\0'; i++)
+			for (i = 0; i < length + 1 && str[i] != '\0'; i++)
 			{
 				dest[i] = str[i];
 			}
