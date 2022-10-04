@@ -6,7 +6,7 @@
 /**
  *create_array-This function creates an array
  *
- *@size: The size of bytes to reserve 
+ *@size: The size of bytes to reserve
  *@c: The array
  *
  *Return: The array
@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size <= 0)
 	{
-		return (NULL);	
+		return (NULL);
 	}
 	else if (s == NULL)
 	{
