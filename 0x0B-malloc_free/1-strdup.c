@@ -41,9 +41,5 @@ char *_strdup(char *str)
 		dest[i] = '\0';
 		return (dest);
 		}
-		else
-		{
-			return (NULL);
-		}
 	}
 }
