@@ -33,6 +33,7 @@ char *str_concat(char *s1, char *s2)
 		{
 			dest[i] = s1[i];
 		}
+		dest[i] = '\0';
 		/*This part involves the actual concatenation of s2 to S*/
 		for (i = 0; i < l2; i++)
 		{
