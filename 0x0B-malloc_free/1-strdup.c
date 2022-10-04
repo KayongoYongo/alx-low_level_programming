@@ -9,7 +9,7 @@
  *
  *@str:-The string to be duplicated
  *
- *Return-Returns the duplicated string.
+ *Return: Returns the duplicated string.
  */
 
 char *_strdup(char *str)
@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	length = strlen(str);
 
 	dest = malloc(sizeof(char) * (length + 1));
-	
+
 	if (dest == NULL)
 		return (NULL);
 
@@ -30,7 +30,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	else
-	{	
+	{
 		for (i = 0; i < length && str[i] != '\0'; i++)
 		{
 			dest[i] = str[i];
