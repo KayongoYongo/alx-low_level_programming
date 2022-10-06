@@ -8,4 +8,6 @@ char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
 /*A function that returns a pointer to a 2D array of integers*/
 int **alloc_grid(int width, int height);
+/*A function that splits strings into words*/
+char **strtow(char *str);
 
