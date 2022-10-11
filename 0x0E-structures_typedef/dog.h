@@ -1,0 +1,20 @@
+#ifndef struct_dog
+#define struct_dog
+
+/**
+ *struct dog- The structure to be returned
+ *
+ *@name: The name of the owner
+ *@owner: The name of the owner
+ *@age: The age of the dog
+ *
+ */
+
+struct dog
+{
+	char *name;
+	char *owner;
+	float age;
+};
+
+#endif
