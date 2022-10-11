@@ -23,4 +23,8 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 /*A function that initializes the variable of type struct dog*/
 void print_dog(struct dog *d);
 /*A function that prints struct dog*/
+dog_t *new_dog(char *name, float age, char *owner);
+/*A function that creates a new dog*/
+void free_dog(dog_t *d);
+/*A function that frees a dog*/
 #endif
