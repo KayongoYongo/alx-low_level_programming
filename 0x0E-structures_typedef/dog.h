@@ -2,7 +2,7 @@
 #define struct_dog
 
 /**
- *struct dog- The structure to be returned
+ *struct dog-The structure to be returned
  *
  *@name: The name of the owner
  *@owner: The name of the owner
@@ -16,11 +16,6 @@ struct dog
 	char *owner;
 	float age;
 };
-
-
-/**
- *dog_t - Typedef for struct dog
- */
 
 typedef struct dog dog_t;
 
