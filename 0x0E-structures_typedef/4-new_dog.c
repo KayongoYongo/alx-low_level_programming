@@ -35,7 +35,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	else
 	{
-		for (i = 0; i < length_name; i++)
+		for (i = 0; name[i] != '\0'; i++)
 		{
 			name_copy[i] = name[i];
 		}
@@ -53,7 +53,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 	else
 	{
-		for (i = 0; i < length_owner; i++)
+		for (i = 0; owner[i] != '\0'; i++)
 		{
 			owner_copy[i] = owner[i];
 		}
