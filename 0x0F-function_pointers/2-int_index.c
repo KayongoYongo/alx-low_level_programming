@@ -10,7 +10,7 @@
  *@size: size of the array
  *@cmp: a pointer to the fnction to compare values
  *
- *Return -1 if no element matches
+ *Return: -1 if no element matches
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
