@@ -1,5 +1,5 @@
-#ifndef 3_CALC_H
-#define 3_CALC_H
+#ifndef _3_CALC_H
+#define _3_CALC_H
 
 /*This function finds the sum of the two arguments*/
 int op_add(int a, int b);
