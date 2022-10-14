@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		b = atoi(argv[3]);
 		func = get_op_func(argv[2]);
 
-		if ((*argv[2] == '%' || *argv[2] == '/') && b == 0)
+		if ((*argv[2] == '%' && b == 0) || (*argv[2] == '/' && b == 0))
 		{
 			printf("Error\n");
 			exit(100);
