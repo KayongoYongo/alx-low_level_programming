@@ -25,4 +25,6 @@ size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
 /*A function that returns a node at the bginning of a string*/
 list_t *add_node_end(list_t **head, const char *str);
+/*A function that frees a list*/
+void free_list(list_t *head);
 #endif /* LISTS_H */
