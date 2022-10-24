@@ -18,4 +18,6 @@ typedef struct list_s
 } list_t;
 /*A function that prints all elements of a list*/
 size_t print_list(const list_t *h);
+/*A function that returns the number of elements in a linked list*/
+size_t list_len(const list_t *h);
 #endif /* LISTS_H */
