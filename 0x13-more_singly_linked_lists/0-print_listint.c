@@ -6,7 +6,7 @@
 /**
  *print_listint-A function that prints the elements of a list
  *
- *h- The element to be printed.
+ *@h:The element to be printed.
  *
  *Return: The number of nodes
  */
