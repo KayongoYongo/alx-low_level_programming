@@ -38,4 +38,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 /*Deletes node at index*/
 int delete_nodeint_at_index(listint_t **head, unsigned int index);
+/*A function that reverses a list*/
+listint_t *reverse_listint(listint_t **head);
 #endif /* LISTS_H */
