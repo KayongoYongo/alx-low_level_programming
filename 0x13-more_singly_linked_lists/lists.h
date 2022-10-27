@@ -28,6 +28,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 /*A function that frees a list*/
 void free_listint2(listint_t **head);
+/*A function that deletes the head node*/
+int pop_listint(listint_t **head);
 /*A function that returns the sum of all the data in a linked list*/
 int sum_listint(listint_t *head);
 /*A function that inserts a new node at a given position*/
