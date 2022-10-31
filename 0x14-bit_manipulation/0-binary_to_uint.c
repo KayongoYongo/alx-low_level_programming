@@ -32,13 +32,6 @@ unsigned int binary_to_uint(const char *b)
 		binary = binary / 10;
 		base = base * 2;
 	}
-	if (dec < 0)
-	{
-		return (dec * -1);
-	}
-	else
-	{
-		return (dec);
-	}
+	return (dec)
 }
 
