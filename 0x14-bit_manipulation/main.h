@@ -8,4 +8,6 @@ int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 /*A function that sets the value of a bit to 0*/
 int clear_bit(unsigned long int *n, unsigned int index);
+/*A function that returns the number of bits you need to flip*/
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
 #endif
