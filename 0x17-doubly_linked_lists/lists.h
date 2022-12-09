@@ -32,4 +32,6 @@ void free_dlistint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 /*A function that finds sum of elements*/
 int sum_dlistint(dlistint_t *head);
+/*A function that inserts a node at a given posiion*/
+dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 #endif /* LISTS_H */
