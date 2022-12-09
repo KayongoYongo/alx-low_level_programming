@@ -1,5 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
+#include <stdio.h>
+#include <stdlib.h>
 #include <stddef.h>
 /**
  * struct dlistint_s - doubly linked list
@@ -20,4 +22,6 @@ typedef struct dlistint_s
 size_t print_dlistint(const dlistint_t *h);
 /*A function that  returns the number of nodes*/
 size_t dlistint_len(const dlistint_t *h);
+/*A function that adds a new node at the beginning of a linked list*/
+dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 #endif /* LISTS_H */
