@@ -28,4 +28,6 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 /*A function that frees a list*/
 void free_dlistint(dlistint_t *head);
+/*A function that returns the nth node of a linked list*/
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 #endif /* LISTS_H */
