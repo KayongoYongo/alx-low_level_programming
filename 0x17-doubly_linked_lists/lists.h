@@ -26,4 +26,6 @@ size_t dlistint_len(const dlistint_t *h);
 dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 /*A function that inserts a node at the end*/
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+/*A function that frees a list*/
+void free_dlistint(dlistint_t *head);
 #endif /* LISTS_H */
