@@ -10,4 +10,7 @@ int linear_search(int *array, size_t size, int value);
 
 /*The function carries out a binary search*/
 int binary_search(int *array, size_t size, int value);
+
+/*The function carries out a jump search*/
+int jump_search(int *array, size_t size, int value);
 #endif /* SEARCH_ALGOS_H */
