@@ -1,8 +1,9 @@
 #include "search_algos.h"
 /**
- * binary_search - binary search on array
- * @array: Array to search
- * @size: Size to go trough
+ * exp_binary_search- binary search on array
+ * @l: Left extreme of the array
+ * @r: Right extreme of the array
+ * @array: The array to be searched
  * @value: The value to search
  * Return: int value
  */
